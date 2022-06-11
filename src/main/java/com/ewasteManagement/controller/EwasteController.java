@@ -51,7 +51,7 @@ public class EwasteController {
 	@GetMapping("ewaste/viewbyfacility/{fid}")
 	public ResponseEntity<?> viewByFacilityId(@PathVariable("fid") Integer fid){
 		try {
-			List<EwasteData> facilityDetails = ewasteService.viewUserData(fid);
+			List<EwasteData> facilityDetails = ewasteService.viewfacilityData(fid);
 			return new ResponseEntity<>(facilityDetails,HttpStatus.OK);
 		}
 		catch(Exception e) {
