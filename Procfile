@@ -1,1 +1,1 @@
-web: java -Xms150M -jar target/courses-api-0.0.1-SNAPSHOT.jar
+web: java -Xms150M -jar target/e-wasteManagement-0.0.1-SNAPSHOT.jar
